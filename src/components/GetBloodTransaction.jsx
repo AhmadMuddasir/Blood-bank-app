@@ -52,7 +52,7 @@ const GetBloodTransaction = () => {
 
             <ul className="flex flex-col items-center justify-around ">
               {data ? (
-                <div className="sm:text-sm text-[13px]  font-bold flex flex-wrap justify-center items-start">
+                <div className="sm:text-sm text-[13px]  font-bold flex flex-wrap justify-center items-center">
                     {BloodRecord.map((record,index)=>(
                       <div key={index} className=" sm:w-[]">
                         <p className="bg-slate-700 m-2 p-1 ">Record No.{index+1}</p>

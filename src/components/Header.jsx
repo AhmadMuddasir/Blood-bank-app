@@ -6,7 +6,7 @@ const Header = ({account}) => {
     <>
     <div id='home' className='flex flex-col  items-center justify-center w-[100%] mx-2 mb-2'>
       <div className='flex flex-col justify-start items-start w-full'>
-    <h2 className=" bg-slate-500 rounded-md p-2">
+    <h2 className=" bg-slate-500 rounded-md p-2 ">
                 Account: {account.length > 13 ? `${account.slice(0, 13)}...` : account}
     </h2>
 

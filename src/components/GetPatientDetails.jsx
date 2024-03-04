@@ -56,7 +56,7 @@ const GetPatientDetails = () => {
           {
             data ? (
               <>
-              <div className='sm:text-3xl text-1xl font-bold flex flex-col justify-center items-start'>
+              <div className='sm:text-3xl text-1xl font-bold flex flex-col justify-center items-center'>
               <p className=' my-2 p-1'>name: {patienrRecord.name}</p>
               <p className=' my-2 p-1'>aadhar: { patienrRecord.aadhar.toString()}</p>
               <p className=' my-2 p-1'>age: {patienrRecord.age.toString()}</p>

@@ -82,7 +82,7 @@ const Section = () => {
         <>
         
         <div className='sidebar flex justify-center absolute items-center  w-full'>
-        <div className='flex flex-col bg-slate-900  items-start md:w-[40%] sm:w-[52%]  w-[85%] rounded-lg m-4 p-4  '>
+        <div className='flex flex-col bg-slate-900  items-center md:w-[40%] sm:w-[52%]  w-[85%] rounded-lg m-4 p-4  '>
             <button className='m-2 p-2 bg-slate-500 rounded-sm' onClick={closeModal}>
               Close
             </button>

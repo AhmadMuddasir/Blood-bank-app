@@ -108,7 +108,7 @@ const NewPatient = () => {
         >
           {/* Input fields with name attributes */}
           {data.map((data, index) => (
-            <div key={index} className="flex flex-col items-start mb-3">
+            <div key={index} className="flex flex-col items-center mb-3">
 
               <p className="ml-2 text-white font-mono  text-lg">{data.text}</p>
               <input
