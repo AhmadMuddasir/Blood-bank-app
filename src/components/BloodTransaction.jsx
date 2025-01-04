@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const BloodTransaction = () => {
   const { contract } = useContext(ContractContext);
-
+//blood tnx object
   const [formData, setFormData] = useState({
     aadhar: "",
     dnrOrRcvr: "0",
