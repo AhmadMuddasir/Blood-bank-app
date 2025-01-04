@@ -4,6 +4,7 @@ import { ContractContext } from "../App";
 
 const AllBloodTransaction = () => {
   const { contract } = useContext(ContractContext);
+  //array is inside the records
   const [Records,setRecords] = useState([]);
 
   useEffect(()=>{
