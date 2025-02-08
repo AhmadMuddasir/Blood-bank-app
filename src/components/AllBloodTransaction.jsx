@@ -6,7 +6,7 @@ const AllBloodTransaction = () => {
   const { contract } = useContext(ContractContext);
   //array is inside the records
   const [Records,setRecords] = useState([]);
-
+// for getting all the records use effect is used 
   useEffect(()=>{
     const getAllRecords = async()=>{
       try {
